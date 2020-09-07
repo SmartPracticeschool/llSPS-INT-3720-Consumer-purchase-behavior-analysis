@@ -1,0 +1,89 @@
+<html>
+<head>
+<title> </title>
+
+<style>
+.login{
+top: 20%;
+}
+#para{
+    text-align: center;
+    background-image: url("https://martechtoday.com/wp-content/uploads/2018/08/robot-shopping-commerce-ai-ss-1920_p9zldb.gif");
+}
+</style>
+
+<body>
+<div id="para">
+<h1>COMSUMER PURCHASE PREDICTION</h1>
+<form action = "/login" method = "post">
+<p>
+<font size='3'face='palatino'color='black'>
+ENTER YOUR PRODUCT ID
+</font>
+</p>
+<p>
+<font size='3'face='palatino'color='black'>
+<input type = "text" name = "pid" placeholder='Your Product ID'/>
+</p>
+<label for = "Gender">
+GENDER
+</label><br>
+<select name = "G">
+<option value = "Male">MALE</option>
+<option value = "Female">FEMALE</option>
+</select>
+<p>
+ENTER AGE
+</p>
+<p>
+<input type = "text" name = "age" placeholder='Your Age'/>
+</p>
+<p>
+<font size='3'face='palatino'color='black'>
+ENTER YOUR OCCUPATION CATEGORY IN RANGE
+</p>
+<p><input type = "text" name = "oc" placeholder='Enter Value'/></p>
+<label for = "City Category">CITY CATEGORY</label><br>
+<select name = "cc">
+<option value = "1">1</option>
+<option value = "2">2</option>
+<option value = "3">3</option>
+</select>
+
+<p>
+<font size='3'face='palatino'color='black'>
+ENTER YOUR STAY IN CURRENT CITY IN YEARS
+</p>
+<p><input type = "text" name = "st" placeholder='No of years'/>
+</p>
+<label for = "Marital Status">MARITAL STATUS</label><br>
+<select name = "ms">
+<option value = "married">MARRIED</option>
+<option value = "unmarried/divorced">UNMARRIED</option>
+</select>
+
+<p>
+<font size='3'face='palatino'color='black'>
+ENTER YOUR PRODUCT_CATEGORY_1 
+</p>
+<p><input type = "text" name = "pca" placeholder='Enter category'/></p>
+
+<p>
+<font size='3'face='palatino'color='black'>
+ENTER YOUR PRODUCT_CATEGORY_ 2 </p>
+<p><input type = "text" name = "pcb" placeholder='Enter Category'/></p>
+
+<p>
+<font size='3'face='palatino'color='black'>
+ENTER YOUR PRODUCT_CATEGORY_3</p>
+<p><input type = "text" name = "pcc" placeholder='Enter Category'/></p>
+
+<p>
+<font size='3'face='palatino'color='black'>
+
+    <input type = "submit" value = "PREDICTION"/></p>
+</div>
+</form>
+<b>{{label}}</b>
+</body>
+</html>
